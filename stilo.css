@@ -1,0 +1,80 @@
+@charset "utf-8";
+body{
+ 
+    background-color: rgb(226, 225, 167);
+
+}
+
+.principal {
+    @font-face {
+        font-family: otf, arial;
+        src: url(android.otf);
+    }
+    background-color: #ffffff;
+    text-align: center;
+    margin: 70px;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.secundario{
+    text-align: left;
+}
+
+.completo {
+    background-color: #f7f7f7;
+    text-align: center;
+    margin: 40px;
+    padding: 35px;
+}
+.fim{
+    background-color: #d6d6d6;
+    text-align: center;
+    margin: 0px, 0px, 0px, 0px;
+    
+}
+.fim2 {
+    background-color:#d6d6d6 ;
+    padding: 0px;
+    margin: 0px;
+    margin-inline: 10px;
+
+}
+.divdadiv {
+ 
+    background-color: #f7f7f7;
+    text-align: center; 
+    margin: 80px;
+    padding: 65px;
+}
+.divdadiv2
+{
+    background-color: #d6d6d6; 
+    margin: 80px;
+    padding: 65px;
+}
+.h1z {
+    background-color: rgba(24, 139, 9, 0.808);
+
+} 
+.h2z
+{
+    background-color: rgba(27, 150, 3, 0.685);
+}
+.video {
+    background-color: black;
+    margin-bottom: 30px;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 50%; }
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+
+}
